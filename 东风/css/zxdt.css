@@ -1,0 +1,80 @@
+.zxdt {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.zxdt .list-tit {
+    margin-top: 30px;
+}
+
+.zxdt .list-cont {
+    margin-top: 40px;
+}
+
+.zxdt .list-cont ul {
+    margin-left: -28px;
+}
+
+.zxdt .list-cont ul li {
+    width: 535px;
+    height: 243px;
+    background: #fff;
+    margin-bottom: 28px;
+    margin-left: 28px;
+    float: left;
+    position: relative;
+}
+
+.zxdt .list-cont ul li:last-of-type{
+	float: right;
+}
+
+.zxdt .list-cont ul li .img {
+    top: 39px;
+    left: 20px;
+    position: absolute;
+}
+
+.zxdt .list-cont ul li .text {
+    position: absolute;
+    width: 198px;
+    right: 30px;
+    top: 58px;
+}
+
+.list-cont ul li .text p {
+    color: #838284;
+    text-align: left;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.list-cont ul li .text p.p1 {
+    font-size: 19px;
+    color: #454548;
+}
+.zxdt .mm{
+    margin-left: 494px;
+    margin-bottom: 128px;
+}
+.zxdt .mm img{
+    margin-top: 30px;
+}
+.zxdt .mm .more-btn{
+    background: url("../img/lis_more_btn_bg.png") no-repeat center;
+    width: 58px;
+    height: 58px;
+    background-position: 0 -58px;
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.footer .yx{
+    background: url("../img/fixed_contactus.png") no-repeat center;
+    width: 235px;
+    height: 87px;
+}
+
+

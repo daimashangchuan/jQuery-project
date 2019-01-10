@@ -1,0 +1,912 @@
+.inner{
+	width: 1100px;
+	margin: 0 auto;
+}
+.banner_pic{
+	width: 100%;
+	height: 593px;
+	position: relative;
+	overflow: hidden;
+}
+.banner_none{
+	display: none;
+}
+.banner_one{
+	background: url(../img/banner01_bg.jpg) no-repeat center;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+.banner_one .img1{
+	position: absolute;
+    top: 204px;
+    left: 343px;
+}
+.banner_one .img2{
+	position: absolute;
+    top: 300px;
+    left: 375px;
+}
+.banner_one .img3{
+	position: absolute;
+    top: 354px;
+    left: 374px;
+}
+.banner_two{
+	background: url(../img/banner02_bg.jpg) no-repeat center;
+	height: 100%;
+	position: relative;	
+}
+.banner_two .img1{
+	position: absolute;
+    top: 177px;
+    left: 61px;
+}
+.banner_two .img2{
+	position: absolute;
+    top: 70px;
+    left: 261px;
+}
+.banner_two .img3{
+	position: absolute;
+    top: 195px;
+    left: 270px;
+}
+.active_btn{
+	position: absolute;
+    left: 50%;
+    margin-left: -108px;
+    bottom: 40px;
+    z-index: 20;
+    height: 29px;
+    width: 216px;
+    background: url(../img/next&prev_line.png) no-repeat left center;
+}
+.active_btn>span{
+	position: absolute;
+    top: 0;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+}
+.active_btn .prev{
+    background: url(../img/prev_jiantou.png) no-repeat;
+}
+.active_btn .next{
+    background: url(../img/next_jiantou.png) no-repeat;
+    right: 0;
+}
+.active_btn .prev:hover{
+	background: url(../img/prev_jiantou_hover.png) no-repeat;
+	animation: name 1s linear 1;
+}
+.active_btn .next:hover{
+	background: url(../img/next_jiantou_hover.png) no-repeat;
+	animation: name 1s linear 1;
+}
+.middle_wrap{
+	margin: 0 auto;
+    width: 45px;
+    height: 14px;
+    margin-top: 7px;
+    background: ;
+    border: 2px solid #e2e2e2;
+    border-radius: 10px;
+    background: #f1f2f6;
+}
+.middle_wrap span{
+	display: block;
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin: 4px 8px;
+    background: url(../img/next&prev_others.png) no-repeat;
+    cursor: pointer;
+}
+.middle_wrap span.now{
+	background: url(../img/next&prev_now.png);
+}
+@keyframes name {
+    0% {
+        transform: scale(1.2, 0.8);
+    }
+    1% {
+        transform: scale(1.18, 0.82);
+    }
+    2% {
+        transform: scale(1.16, 0.84);
+    }
+    3% {
+        transform: scale(1.13, 0.87);
+    }
+    4% {
+        transform: scale(1.1, 0.9);
+    }
+    5% {
+        transform: scale(1.07, 0.93);
+    }
+    6% {
+        transform: scale(1.04, 0.96);
+    }
+    7% {
+        transform: scale(1.01, 0.99);
+    }
+    8% {
+        transform: scale(0.99, 1.01);
+    }
+    9% {
+        transform: scale(0.97, 1.03);
+    }
+    10% {
+        transform: scale(0.95, 1.05);
+    }
+    11% {
+        transform: scale(0.94, 1.06);
+    }
+    12% {
+        transform: scale(0.93, 1.07);
+    }
+    13% {
+        transform: scale(0.93, 1.07);
+    }
+    14% {
+        transform: scale(0.93, 1.07);
+    }
+    15% {
+        transform: scale(0.93, 1.07);
+    }
+    16% {
+        transform: scale(0.94, 1.06);
+    }
+    17% {
+        transform: scale(0.94, 1.06);
+    }
+    18% {
+        transform: scale(0.95, 1.05);
+    }
+    19% {
+        transform: scale(0.96, 1.04);
+    }
+    20% {
+        transform: scale(0.98, 1.02);
+    }
+    21% {
+        transform: scale(0.99, 1.01);
+    }
+    22% {
+        transform: scale(1, 1);
+    }
+    23% {
+        transform: scale(1, 1);
+    }
+    24% {
+        transform: scale(1.01, 0.99);
+    }
+    25% {
+        transform: scale(1.02, 0.98);
+    }
+    26% {
+        transform: scale(1.02, 0.98);
+    }
+    27% {
+        transform: scale(1.02, 0.98);
+    }
+    28% {
+        transform: scale(1.03, 0.97);
+    }
+    29% {
+        transform: scale(1.03, 0.97);
+    }
+    30% {
+        transform: scale(1.02, 0.98);
+    }
+    31% {
+        transform: scale(1.02, 0.98);
+    }
+    32% {
+        transform: scale(1.02, 0.98);
+    }
+    33% {
+        transform: scale(1.02, 0.98);
+    }
+    34% {
+        transform: scale(1.01, 0.99);
+    }
+    35% {
+        transform: scale(1.01, 0.99);
+    }
+    36% {
+        transform: scale(1.01, 0.99);
+    }
+    37% {
+        transform: scale(1, 1);
+    }
+    38% {
+        transform: scale(1, 1);
+    }
+    39% {
+        transform: scale(1, 1);
+    }
+    40% {
+        transform: scale(0.99, 1.01);
+    }
+    41% {
+        transform: scale(0.99, 1.01);
+    }
+    42% {
+        transform: scale(0.99, 1.01);
+    }
+    43% {
+        transform: scale(0.99, 1.01);
+    }
+    44% {
+        transform: scale(0.99, 1.01);
+    }
+    45% {
+        transform: scale(0.99, 1.01);
+    }
+    46% {
+        transform: scale(0.99, 1.01);
+    }
+    47% {
+        transform: scale(0.99, 1.01);
+    }
+    48% {
+        transform: scale(0.99, 1.01);
+    }
+    49% {
+        transform: scale(1, 1);
+    }
+}
+.product{
+	overflow: hidden;
+}
+.pro_tit{
+	margin-top: 48px;
+}
+.pro_tit img{
+	display: block;
+	margin: 0 auto;
+}
+.pro_tit h2{
+	margin-top: 60px;
+	line-height: 60px;
+	text-align: center;
+    font-size: 54px;
+    color: #311759;
+}
+.pro_tit h3{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #311759;
+}
+.pro_tit .img1{
+	margin-top: 20px;
+}
+.pro_cont{
+	margin-top: 70px;
+	height: 540px;
+    position: relative;
+}
+.pro_line{
+	width: 19px;
+    margin-right: 51px;
+    float: left;
+    height: 380px;
+    background: url(../img/chanpin_nowline_bgline.png) repeat-y 9px 20px;
+    margin-top: 22px;
+}
+.pro_line .line_btn{
+	text-align: center;
+    height: 11px;
+    margin-bottom: 63px;
+}
+.pro_line .line_btn i{
+    width: 19px;
+    height: 19px;
+    background: url(../img/chanpin_nowline_daquan.png);
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    top: -4px;
+    float: left;
+    display: none;
+}
+.pro_line .line_btn i.now{
+	display: block;
+}
+.pro_line .line_btn span{
+	display: block;
+    width: 11px;
+    height: 11px;
+    margin: 0 auto;
+    background: url(../img/chanpin_nowline_xiaoquan.png);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.pro_line .line_btn:hover span{
+	background-position-y: -11px;
+}
+.pro_main {
+	width: 1020px;
+	display: none;
+}
+.pro_main.now{
+	display: block;
+}
+.pro_main .main_right{
+	width: 613px;
+}
+.pro_main .main_right>h2{
+	color: #311759;
+    font-size: 30px;
+    background: url(../img/pen_line.png) no-repeat left bottom;
+    height: 60px;
+    position: relative;
+}
+.pen{
+	width: 61px;
+    height: 54px;
+    background: url(../img/pen.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+}
+.pro_main .main_cont{
+	color: #565559;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.pro_main .main_cont .p1{
+	overflow: hidden;
+    margin: 35px 0 90px 10px;
+}
+.pro_main .main_cont .p1 img{
+	float: left;
+	margin-right: 25px;
+    margin-top: 5px;
+}
+.pro_main .main_cont .p1>h2{
+	font-size: 24px;
+    width: 470px;
+    float: left;
+}
+.pro_main .main_cont .p1>p,.pro_main .main_cont .p2>p{
+	font-family: KaiTi_GB2312;
+	width: 480px;
+	line-height: 24px;
+}
+.pro_main .main_cont .p2>p{
+	width: 100%;
+} 
+.pro_main .main_cont .tip{
+	width: 215px;
+	height: 55px;
+	margin-top: 20px;
+	float: right;
+}
+.pro_main .main_cont .tip div{
+	text-align: center;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.pro_main .main_cont .tip .img2{
+	float: right;
+	margin-top: -5px;
+}
+.pro_btn{
+	position: absolute;
+    left: 53%;
+    margin-left: -108px;
+    top: 232px;
+    z-index: 20;
+    height: 29px;
+    width: 610px;
+    background: url(../img/next&prev_line.png) repeat-x left center;
+}
+.pro_btn>div{
+	position: absolute;
+    top: 0;
+    height: 29px;
+    width: 29px;
+	cursor: pointer;
+}
+.pro_btn .prev{	
+    background: url(../img/prev_jiantou.png) no-repeat;    
+}
+.pro_btn .prev:hover{
+	background: url(../img/prev_jiantou_hover.png) no-repeat; 
+	animation: name 1s linear 1;
+}
+.pro_btn .next{
+	right: 0;
+	background: url(../img/next_jiantou.png) no-repeat;
+}
+.pro_btn .next:hover{
+	background: url(../img/next_jiantou_hover.png) no-repeat;
+	animation: name 1s linear 1;
+}
+.pan_sui{
+    font-size: 38px;
+    float: left;
+    display: inline-block;
+    margin-top: -5px;
+   
+}
+.product  .fadeInLeftBig{
+	animation: fadeInLeftBig 1s ease-out 1;
+}
+.product .main_right .fadeInLeftBig{	
+	animation: fadeInLeftBig .7s ease-out 1;
+}
+.product .fadeInRightBig{
+	animation: fadeInRightBig .7s ease-out 1;
+}
+.product .main_right .fadeInRightBig{
+	animation: fadeInRightBig 1s ease-out 1;
+}
+.sunmmary{
+	width: 100%;
+	height: 923px;
+	background: url(../img/mokuai02_bg.jpg) no-repeat center;
+}
+.sunmmary .pro_tit{
+	margin-top: 0;
+}
+.sun_tit{
+	padding-top: 120px;
+	height: 200px;
+}
+.sun_tit>h2{
+	margin-top: 0;
+	color: #fff;
+}
+.sun_tit>h3{
+	color: #fff;
+}
+.sun_color{
+	color: #bca9d7;
+}
+.bus_cont{
+	margin-top: 70px;
+}
+.bus_main{
+	border-bottom: 2px dashed #e0e0e2;
+    margin-bottom: 54px;
+}
+.bus_top{
+	height: 116px;
+    margin-bottom: 66px;
+}
+.bus_top .one{
+	width: 148px;
+    font-size: 90px;
+    color: #b5b6ba;
+    font-family: "宋体";
+    float: left;
+}
+.bus_top .two{
+    width: 285px;
+    text-align: right;
+    padding-top: 31px;
+    float: left;	
+}
+.bus_top .two h2{
+	color: #311859;
+    font-size: 24px;
+    font-weight: normal;
+}
+.bus_top .two p{
+	color: #565559;
+	text-align: right;
+}
+.bus_top .three{
+	width: 116px;
+    margin: 0 44px 0 59px;
+    cursor: pointer;
+    float: left;
+}
+.bus_top .four{
+	width: 320px;
+    margin: 20px 60px 0 0;
+    font-family: KaiTi_GB2312;
+    line-height: 24px;
+    float: left;
+    color: #565559;
+}
+.bus_top .four p{
+	width: 320px;
+    font-family: KaiTi_GB2312;
+    line-height: 24px;
+}
+.bus_top .five{
+	height: 67px;
+    width: 67px;
+    background: url(../img/business_zhankaishouqi.png);
+    cursor: pointer;
+    margin-top: 22px;
+    float: left;
+}
+.bus_top .animatetada:hover{
+	background-position-y: -67px;
+}
+.bus_bottom{
+	padding-bottom: 30px;
+    width: 790px;
+    margin-left: 180px;
+    font-family: KaiTi_GB2312;
+    line-height: 24px;
+    display: none;
+}    
+.bus_bottom p{
+	margin-bottom: 20px;
+	color: #565559;
+}
+
+/*******/
+/*******/
+/*******/
+/*******/
+/*******/
+/*******/
+/*******/
+/*******/
+
+.team{
+	position: relative;
+	height: 683px;
+}
+.teammove_wrap {
+    width: 1100px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 64px;
+    position: relative;
+}
+.teammove_wrap .team_move {
+    width: 3390px;
+    height: 250px;
+    position: absolute;
+}
+.teammove_wrap .twoteam_wrap {
+	margin-top: 30px;
+    width: 1130px;
+    float: left;
+    height: 314px;
+}
+.team_box {
+    width: 533px;
+    height: 188px;
+    border: 1px solid #e0e1e5;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.team_box .headimg {
+    position: absolute;
+    top: -65px;
+    left: 26px;
+    width: 156px;
+    height: 156px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.team_box .name_wrap {
+    width: 222px;
+    height: 80px;
+    text-align: center;
+    color: #5f4c82;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 24px;
+}
+.team_box .description {
+    width: 246px;
+    height: 80px;
+    position: absolute;
+    top: 24px;
+    left: 220px;
+    color: #565559;
+    line-height: 24px;
+    font-size: 16px;
+}
+.team_box .send_email {
+    height: 45px;
+    width: 246px;
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+    background: #e7e8ec;
+    border: 1px solid #e0e1e5;
+    cursor: pointer;
+}
+.team_box .other_contacts {
+    width: 47px;
+    height: 190px;
+    background: #2999d6;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+.team_box .name_wrap .job_title {
+    font-size: 18px;
+}
+.team_box .send_email i {
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #d9d9e1 url(../img/team_contact.png) 12px 17px no-repeat;
+}
+.team_box .send_email span {
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 200px;
+}
+.team_box .other_contacts .weibo {
+    background-position: 14px -28px;
+}
+.team_box .other_contacts div {
+    background: url(../img/team_contact.png) no-repeat;
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}.team_box .other_contacts div:hover {
+     background-color: #168bcb;
+     transition: all 0.5s ease 0s;
+ }
+.team_box .other_contacts .qq {
+    background-position: 14px -75px;
+}
+.team_box .other_contacts div {
+    background: url(../img/team_contact.png) no-repeat;
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+.team_box .other_contacts .github {
+    background-position: 14px -126px;
+}
+.team_box .other_contacts .weixin {
+    background-position: 14px -166px;
+}
+.team_box .headimg a {
+    width: 156px;
+    height: 156px;
+    background: url(../img/team_amore.png);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.team_box .headimg:hover a{
+    display: block;
+    opacity: 1;
+}
+.mechanism{
+	background: #fff;
+}
+.mec_img{
+	display: block;
+	margin: 0 auto;
+}
+.mec_cont{
+	margin-top: 110px;
+	color: #5f4c82;
+}
+.mec_left{
+	width: 550px;
+    border-right: 1px solid #d3d3d3;
+    margin-bottom: 120px;
+}
+.hezuocontent_wrap {
+    color: #5f4c82;
+    overflow: hidden;
+    padding-top: 75px;
+}
+.hezuocontent_wrap .partners {
+    float: left;
+    width: 550px;
+    border-right: 1px solid #d3d3d3;
+    margin-bottom: 120px;
+}
+.hezuocontent_wrap h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 6px;
+    letter-spacing: 6px;
+}
+.partners_box {
+    margin-left: 18px;
+}
+.partners_box > div, .users_box > div {
+    width: 173px;
+    height: 80px;
+    float: left;
+    margin-top: 70px;
+}
+.partners_box img, .users_box img {
+    max-height: 80px;
+}
+.hezuocontent_wrap .users{
+    float: left;
+    width: 474px;
+    margin-left: 75px;
+    position: relative;
+}
+.hezuocontent_wrap .users .more {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    background: url(../img/yonghu_morebg.png) no-repeat -69px 0;
+    width: 69px;
+    height: 26px;
+}
+.users_box {
+    width: 520px;
+}
+.hezuocontent_wrap .users .more:hover {
+    background-position: 0 0px;
+    transition: background 0.3s ease 0s;
+}
+.partners_box img:hover{
+    opacity: .7;
+}
+.users_box img:hover{
+    opacity: .7;
+}
+
+
+.input_warper {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.input_box {
+    height: 45px;
+    width: 333px;
+    background: #fff;
+    border: 1px solid #dedfe3;
+    margin-bottom: 27px;
+    float: left;
+}
+.input_box i {
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #e7e8ec url(../img/lianxi_icons.png) 13px 14px no-repeat;
+}
+.input_box input {
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 268px;
+    border: none 0;
+    padding-left: 18px;
+    outline: none;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica;
+}
+.textarea_box {
+    height: 210px;
+    width: 720px;
+    margin-right: 39px;
+}
+.textarea_box i {
+    height: 210px;
+}
+.input_box textarea {
+    float: left;
+    line-height: 27px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 640px;
+    padding-right: 17px;
+    height: 200px;
+    border: none 0;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica;
+}
+.sentbtn_box {
+    background: #168bcb;
+    border-color: #2999d6;
+    cursor: pointer;
+}
+.sentbtn_box i {
+    background-color: #2999d6;
+    background-position: -179px 14px;
+}
+.sentbtn_box span {
+    float: left;
+    line-height: 45px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 200px;
+    padding-left: 18px;
+    text-align: center;
+    color: #fff;
+}
+.lianxi_ways {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.way_one {
+    width: 345px;
+    height: 250px;
+    float: left;
+}
+.way_one > * {
+    float: left;
+}
+.way_one > img {
+    position: relative;
+    top: 24px;
+}
+.way_one .way_content {
+    margin-left: 27px;
+}
+.way_one h1 {
+    line-height: 60px;
+    height: 60px;
+    width: 210px;
+    background: url(../img/lianxi_kuaier_bg.) no-repeat bottom left;
+    color: #5f4c82;
+    margin-bottom: 14px;
+}
+.way_one .way_content p {
+    line-height: 32px;
+    color: #524d5c;
+}
+.sentbtn_box:hover {
+    background: #0d74ac;
+    border: 1px solid #0d74ac;
+    transition: all 0.5s ease 0s;
+}
+.map_top{
+	height: 32px;
+	position: relative;
+}
+.map_top img{
+	position: absolute;
+	top: 32px;
+	left: 0;
+	z-index: 9999;
+}
+.map_bot{
+	width: 100%;
+}
+.map_bot img{
+	width: 100%;
+	height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
